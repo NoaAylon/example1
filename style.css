@@ -30,7 +30,7 @@ header a{
 #logo{
     display: inline-block;
     width:197px;
-    height: 40px;
+    /* height: 40px; */
     background: url(images/logo.png) no-repeat left center; /*left - x axis    center - y axis */
     background-size: contain;
 }
@@ -39,14 +39,14 @@ header a{
 }
 
 #logo h3{
-    padding-top: 15px;
+    padding-top: 40px;
     display: inline-block;
     /*font-size: 15px;*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
 }
 
 header nav{
-    margin-top: 25px;
+    margin-top: 40px;
     display: inline-block;
     font-weight: bold;
     font-size: 26px;
