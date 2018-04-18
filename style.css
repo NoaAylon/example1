@@ -18,6 +18,7 @@ header{
     width: 100%;
     height: 99px;
     background-color: #f6f9f9;
+    text-align: center;
 
 }
 
@@ -32,40 +33,41 @@ header a{
     height: 40px;
     background: url(images/logo.png) no-repeat left center; /*left - x axis    center - y axis */
     background-size: contain;
-    margin-left: 250px;
-
+}
+#logo img{
+    padding-top: 31px;
 }
 
-#logo h4{
-    margin-left: 110px;
-    margin-top: 15px;
-    font-size: 15px;    
+#logo h3{
+    padding-top: 15px;
+    display: inline-block;
+    /*font-size: 15px;*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
 }
 
-nav{
-    margin-left: 50px;
+header nav{
     margin-top: 25px;
     display: inline-block;
     font-weight: bold;
     font-size: 26px;
 }
 
-nav a{
+header nav a{
     display: inline;
     padding-right: 10px;  
     border-right: 3px solid #264951;
 }
 
-nav a:last-child {
+header nav a:last-child {
     border-right: none;
 }
 
-nav a:hover{
+header nav a:hover{
     color: #999999;
     text-decoration:none;
 }
 
-nav img{
+header nav img{
     max-height: 100px;
 }
 
@@ -87,24 +89,20 @@ nav img{
      width: 542px;
      padding-bottom: 28px;
      margin: 0 auto;
-
  }
 
  .cover h4{
-    margin-top: 64px;
-
+    margin-top: 30px;
  }
 
  .cover a{
      display: inline-block;
-     margin-top: 70px;
+     margin-top: 30px;
      border: 1px solid #15a4fa;
      width: 112px;
      font-size: 15px;
      color: #ffff;
      padding: 20px;
-
-    
  }
 
  #info{
@@ -124,11 +122,13 @@ nav img{
     text-align: center;
      padding-top: 37px;
      font-size: 20px;
+     color: #999999;
  }
 
 #knowledge{
     height: 637px;
 }
+
 #knowledge h2{
     padding-top: 75px;
     text-align: center;
@@ -138,7 +138,6 @@ nav img{
     padding-top: 61px;
     margin-bottom: 112px;
 }
-
 
 #knowledge li{
     display: block;
@@ -151,6 +150,7 @@ nav img{
     width: 100px;
     vertical-align: middle;
 }
+
 #item3{
     padding-top: 10px;
 }
